@@ -27,9 +27,9 @@ export const Board = () => {
   for (let row = 0; row < rows; row++) {
     const rowCards = getRowCards(row);
     content.push(
-      <CardRow 
-        key={row} 
-        cards={rowCards} 
+      <CardRow
+        key={row}
+        cards={rowCards}
       />
     );
   }
