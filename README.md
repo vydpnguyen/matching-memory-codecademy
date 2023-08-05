@@ -1,3 +1,19 @@
+# About
+This is my project for Codecademy's **Matching Memory** in the **Full Stack Engineer** path. **Note:** The initial commit includes default files provided by Codecademy (www.codecademy.com). I have built upon this starting point to develop the project further.
+
+# Project Description
+
+This project explores where react-redux fits into an application by finishing off the implementation of a one-player matching game.
+
+The application consists of 5 React components:
+1. App: The root component, App renders the Score and Board components.
+1. Score: Child of the App component, Score will display the number of matched cards.
+1. Board: Child of the App component, Board will create the card grid for gameplay.
+1. CardRow: Child of the Board component, CardRow renders a row of Card components.
+1. Card: Child of the CardRow component, Card displays the card content when flipped over.
+
+![Matching Memory](public/matching-memory.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
